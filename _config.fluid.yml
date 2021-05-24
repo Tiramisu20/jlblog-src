@@ -1,0 +1,24 @@
+footer:
+  statistics:
+    enable: false
+    source: "busuanzi"  # 可选 leancloud | busuanzi  根据自己需求选择
+    pv_format: "总访问量 {} 次"  # 显示的文本，{}是数字的占位符（必须包含)，下同
+    uv_format: "总访客数 {} 人"
+    
+force_https: true
+
+index:
+  slogan:
+    enable: true
+    text: 
+    api:
+      enable: true
+      url: "https://v1.hitokoto.cn/"
+      method: "GET"
+      headers: {}
+      keys: ["hitokoto"]
+  banner_img: /img/bg.png 
+navbar:
+  blog_title: Tiramisu
+  
+custom_css: /css/custom.css
