@@ -22,3 +22,13 @@ navbar:
   blog_title: Tiramisu
   
 custom_css: /css/custom.css
+favicon: /img/favicon.ico
+
+archive:
+  banner_img: /img/bg.png 
+
+category:
+  banner_img: /img/bg.png 
+  
+tag: 
+  banner_img: /img/bg.png 
